@@ -1,12 +1,11 @@
-from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
-from plotly.graph_objs import *
-import pandas as pd
 import plotly
-from datetime import datetime, timedelta
+import pandas as pd
 import numpy as np
 import cufflinks as cf
+
+from plotly.graph_objs import *
+from datetime import datetime, timedelta
 from plotly.offline import download_plotlyjs,init_notebook_mode,plot,iplot
-import json
 
 cf.go_offline()
 
