@@ -26,9 +26,9 @@ def plotly_heatmap(z, x, y, layout):
   # redata = json.loads(json.dumps(data, cls=plotly.utils.PlotlyJSONEncoder))
   # relayout = json.loads(json.dumps(layout, cls=plotly.utils.PlotlyJSONEncoder))
   trace = Heatmap(
-    z = z,
-    x = days,
-    y=months.map(lambda x: x.capitalize()),
+    z=z,
+    x=x,
+    y=y,
     colorscale='Jet'
   )
 
